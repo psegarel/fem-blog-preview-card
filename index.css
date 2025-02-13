@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+.figtree-title {
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.figtree-content {
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-size: clamp(20px, 5vw, 24px);
+}
+.copy {
+  font-size: clamp(14px, 4vw, 16px);
+  line-height: 150%;
+  color: #6b6b6b;
+}
+
+.date,
+.label,
+.footer {
+  font-size: clamp(12px, 3.5vw, 14px);
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: #f4d04e;
+  padding: 0 2em;
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid #111;
+  width: 384px;
+  height: 522px;
+  margin: auto;
+  filter: drop-shadow(5px 5px #111);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  background-color: #f4d04e;
+  align-self: flex-start;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+img.illustration {
+  width: 100%;
+  min-width: 279px;
+  min-height: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+@media screen and (max-width: 428px) {
+  .card {
+    width: 327px;
+    height: 501px;
+  }
+}
