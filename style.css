@@ -60,12 +60,6 @@ body {
   justify-content: center;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -97,7 +91,7 @@ main {
 .label {
   background-color: #f4d04e;
   align-self: flex-start;
-  padding: 4px 8px;
+  padding: 4px 12px;
   border-radius: 4px;
   display: inline-block;
 }
